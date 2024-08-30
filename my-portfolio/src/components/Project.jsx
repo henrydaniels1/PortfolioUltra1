@@ -4,26 +4,26 @@ import { useEffect, useRef, useState } from 'react';
 const data = [
   {
     imageUrl: "https://images.unsplash.com/photo-1480714378408-67cf0d13bc1b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80",
-    author: "Andrea Felsted",
-    date: "18 Nov 2022",
-    title: "Migrating to Sailboat UI",
-    description: "Sailboat UI is a modern UI component library for Tailwind CSS. Get started with 150+ open source components.",
+    // author: "Andrea Felsted",
+    date: "18 Aug 2024",
+    title: "CRIPTIFY",
+    description: "A Symmetric Encryption and Decryption Tool Website",
     alt: "Sailboat UI",
     link: "https://criptifyyy.vercel.app/" // Add the link here
   },
   {
     imageUrl: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80",
-    author: "John Doe",
-    date: "20 Nov 2022",
-    title: "Understanding React Hooks",
-    description: "React Hooks revolutionized the way we build components in React. Learn how to use them effectively.",
+    // author: "John Doe",
+    date: "18 Aug 2024",
+    title: "Bricks and Steels",
+    description: "A Portfolio Website for an Architect",
     alt: "React Hooks",
     link: "https://brickss-sigma.vercel.app/" // Add the link here
   },
   {
     imageUrl: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80",
-    author: "John Doe",
-    date: "20 Nov 2022",
+    // author: "H",
+    date: "18 Aug 2024",
     title: "Understanding React Hooks",
     description: "React Hooks revolutionized the way we build components in React. Learn how to use them effectively.",
     alt: "React Hooks",
@@ -86,7 +86,7 @@ const Project = () => {
   }, []);
 
   return (
-    <div ref={ sectionRef } className="py-16 space-y-16 bg-red-500 w-[97%] lg:w-[95%] mx-auto">
+    <div ref={ sectionRef } className="py-16 space-y-16  w-[97%] lg:w-[95%] mx-auto">
       <div> <p className='text-4xl font-bold text-center'>MY PROJECTS</p></div>
       <div className={`grid lg:grid-cols-3 sm:grid-cols-1 gap-8 transition-all duration-1000 ease-out transform ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-12'}`}>
         {data.map((item, index) => (
